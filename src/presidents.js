@@ -444,6 +444,7 @@ function countYearsInOffice(presidentsArr) {
   return years;
 }
 
+
 // Iteration 4 | Sort Presidents by Birth Year - `sort()`
 function sortPresidentsByBirthYear(presidentsArr) {
   presidentsArr.sort((a, b) => a.birthYear - b.birthYear);
